@@ -31,7 +31,30 @@ A high-performance **Hyprland** rice for Omarchy featuring a custom **Tokyo Nigh
 | 🎨 **Colors** | Deep Indigos, Magentas, and Copper-Orange accents. |
 
 ---
+## ⚙️ Configuration
 
+### 🌤️ Changing the Weather Location
+The weather widget is set to **Purnia, India** by default. To change this to your city:
+
+1.  **Open the configuration script:**
+    ```bash
+    nano ~/.config/waybar/scripts/weather.py
+    ```
+
+2.  **Find the `CITY` variable** near the top of the file and replace it with your location:
+    ```python
+    # Configuration
+    CITY = "New York"  # Change "Purnia" to your city name
+    ```
+
+3.  **Save and Exit:**
+    * Press `Ctrl + O` then `Enter` to save.
+    * Press `Ctrl + X` to exit.
+
+4.  **Restart Waybar** to apply changes:
+    ```bash
+    killall waybar; waybar &
+    ```
 ## 🚀 Easy Installation (One-Line)
 
 This command installs all system dependencies (Python libraries, NetworkManager, and Papirus Icons), performs a safe backup of your existing Waybar config, and applies the Copper Night theme.
