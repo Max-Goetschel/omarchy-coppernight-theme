@@ -10,7 +10,7 @@ from urllib3.util.retry import Retry
 # ==============================================================================
 # Specify city as "New+York" or "New York" for a manual query
 # Use units="u" for USCS (Fahrenheit/Miles) or units="m" for Metric (Celsius)
-CITY = "Purnia" 
+CITY = "New York" 
 UNITS = "m" 
 # ==============================================================================
 
