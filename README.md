@@ -15,7 +15,7 @@ A high-performance **Hyprland** rice for Omarchy featuring a custom **Tokyo Nigh
 ---
 
 ## 📸 Preview
-| :--: |
+
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a9805426-69f0-4d69-8b51-d0b8654c22a8" />
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/55a73042-3a03-4afa-abce-12ded1ce1ac1" />
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/22a14853-7611-4216-a146-50e6b7a63e85" />
