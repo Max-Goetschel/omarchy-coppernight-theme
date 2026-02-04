@@ -55,6 +55,17 @@ The weather widget is set to **Purnia, India** by default. To change this to you
     ```bash
     killall waybar; waybar &
     ```
+
+
+## Installation Only Theme
+
+Run the following command to install this theme:
+
+```bash
+omarchy-theme-install [https://github.com/hembramnishant50-glitch/omarchy-coppernight-theme.git](https://github.com/hembramnishant50-glitch/omarchy-coppernight-theme.git)
+```
+
+
 ## 🚀 Easy Installation (One-Line)
 
 This command installs all system dependencies (Python libraries, NetworkManager, and Papirus Icons), performs a safe backup of your existing Waybar config, and applies the Copper Night theme.
@@ -68,3 +79,4 @@ cp -r ~/.config/omarchy/themes/coppernight/waybar/. ~/.config/waybar/ && \
 chmod +x ~/.config/waybar/scripts/* && \
 gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark' && \
 killall waybar; waybar &
+
