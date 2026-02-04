@@ -34,7 +34,7 @@ A high-performance **Hyprland** rice for Omarchy featuring a custom **Tokyo Nigh
 ## ⚙️ Configuration
 
 ### 🌤️ Changing the Weather Location
-The weather widget is set to **Purnia, India** by default. To change this to your city:
+The weather widget is set to **New York** by default. To change this to your city:
 
 1.  **Open the configuration script:**
     ```bash
