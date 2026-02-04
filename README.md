@@ -61,7 +61,7 @@ This command installs all system dependencies (Python libraries, NetworkManager,
 
 ```bash
 sudo pacman -S --needed python-requests python-psutil networkmanager papirus-icon-theme && \
-omarchy-theme-install https://github.com/hembramnishant50-glitch/omarchy-coppernight.git && \
+omarchy-theme-install https://github.com/hembramnishant50-glitch/omarchy-coppernight-theme.git && \
 { [ -d ~/.config/waybar ] && mv ~/.config/waybar ~/.config/waybar-backup-$RANDOM; }; \
 mkdir -p ~/.config/waybar && \
 cp -r ~/.config/omarchy/themes/coppernight/waybar/. ~/.config/waybar/ && \
