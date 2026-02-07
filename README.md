@@ -62,7 +62,7 @@ The weather widget is set to **New York** by default. To change this to your cit
 Run the following command to install this theme:
 
 ```bash
-omarchy-theme-install https://github.com/hembramnishant50-glitch/omarchy-coppernight-theme.git
+omarchy-theme-install https://github.com/Max-Goetschel/omarchy-coppernight-theme.git
 ```
 
 
@@ -72,7 +72,7 @@ This command installs all system dependencies (Python libraries, NetworkManager,
 
 ```bash
 sudo pacman -S --needed python-requests python-psutil networkmanager papirus-icon-theme && \
-omarchy-theme-install https://github.com/hembramnishant50-glitch/omarchy-coppernight-theme.git && \
+omarchy-theme-install https://github.com/Max-Goetschel/omarchy-coppernight-theme.git && \
 { [ -d ~/.config/waybar ] && mv ~/.config/waybar ~/.config/waybar-backup-$RANDOM; }; \
 mkdir -p ~/.config/waybar && \
 cp -r ~/.config/omarchy/themes/coppernight/waybar/. ~/.config/waybar/ && \

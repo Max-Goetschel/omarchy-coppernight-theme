@@ -119,7 +119,7 @@ def get_sys_info():
     tt = "<b><span color='#cba6f7'>╔════════ SYSTEM DIAGNOSTICS ════════╗</span></b>\n"
 
     # Row 1: CPU Visuals (NEW)
-    tt += f"<b><span color='#f38ba8'>║ CPU    </span></b> <span color='#45475a'>[{get_progress_bar(cpu_percent)}]</span> <span color='#cdd6f4'>{cpu_percent}%</span>\n"
+    tt += f"<b><span color='#89b4fa'>║ CPU    </span></b> <span color='#45475a'>[{get_progress_bar(cpu_percent)}]</span> <span color='#cdd6f4'>{cpu_percent}%</span>\n"
 
     # Row 2: GPU Visuals (if available)
     if gpu_usage is not None:
